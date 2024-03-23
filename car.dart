@@ -39,7 +39,7 @@ class ElectricCar extends Car{
   @override
   void accelerate(){
     speed+=20;
-    print('$brand (electric) is accelerating.current speed:$speed km/h');
+    print('$brand (electric) has accelerated.current speed:$speed km/h');
   }
 }
 void main(){
