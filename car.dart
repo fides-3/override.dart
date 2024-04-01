@@ -25,7 +25,7 @@ class Car implements Vehicle{
       speed -=10;
       print('$brand is braking.current speed:$speed km/h');
     }else{
-      print('$brand has already stopped!');
+      print('$brand is already stopping!');
     }
   }
   void honk(){
